@@ -45,7 +45,6 @@ table {
     text-align: center;
 }
 
-/* Mobile Styles */
 @media (max-width: 767px) {
     body {
         margin: 10px 20px;
@@ -53,43 +52,31 @@ table {
     }
 
     .container {
-        max-width: 90%; /* Increase container width on mobile */
+        max-width: 90%; 
         padding: 15px;
     }
 
     img {
-        width: 100%; /* Make the image full width on smaller screens */
+        width: 100%; 
         padding: 5px;
     }
 
     h2, h3, .d2 {
-        font-size: 1.2em; /* Increase font size slightly for mobile */
+        font-size: 1.2em; 
     }
 
     .about {
-        margin-left: 10px; /* Reduce margin for mobile */
+        margin-left: 10px; 
     }
 
     table {
-        width: 100%; /* Make the table full width on smaller screens */
+        width: 100%; 
     }
 
     td {
-        padding: 5px; /* Reduce padding inside table cells for mobile */
+        padding: 5px; 
     }
 }
 
-/* Optional: For very small screens */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px; /* Smaller font for very small screens */
-    }
 
-    .container {
-        max-width: 100%; /* Make container 100% width on small screens */
-    }
 
-    h2, h3, .d2 {
-        font-size: 1.1em; /* Adjust font size further on very small screens */
-    }
-}
